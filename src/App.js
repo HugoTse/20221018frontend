@@ -1,5 +1,35 @@
 // import '@aws-amplify/core/ui-react/styles.css';
-// import Amplify from "@aws-amplify/core"
+import Amplify from "@aws-amplify/core"
+
+// import {
+//   withAuthenticator,
+//   Button,
+//   Heading,
+//   Image,
+//   View,
+//   Card,
+//   Grid,
+//   TextField,
+//   Alert,
+//   Flex,
+//   Badge,
+//   Text,
+//   Table,
+//   TableCell,
+//   TableHead,
+//   TableRow,
+//   TableBody,
+//   ThemeProvider,
+//   Theme,
+//   TextAreaField,
+//   SelectField,
+//   SwitchField,
+//   useTheme,
+//   Divider,
+//   ToggleButton,
+//   TabItem,
+//   Tabs
+// } from "@aws-amplify/ui-react";
 
 import React, {
   useState,
@@ -81,7 +111,7 @@ function App() {
         {/* <p>hello</p> */}
         <tr className='rowClass'>
           <td className='columnClass'>
-            {file.file.S}
+            <a href={'https://20221004a.s3.us-west-1.amazonaws.com/'+file.s3Filename.S}>{file.file.S}</a>
           </td>
           <td className='columnClass'>
             {file.timestamp.S}
