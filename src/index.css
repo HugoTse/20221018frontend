@@ -50,3 +50,18 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.tableClass {
+  width: 90%;
+  margin-left: 5%;
+  border-collapse: collapse;
+  border: 1px solid;;
+}
+
+.rowClass{
+  border: 1px solid;
+}
+
+.columnClass{
+  border: 1px solid;
+}
