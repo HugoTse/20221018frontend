@@ -1,5 +1,5 @@
 // import '@aws-amplify/core/ui-react/styles.css';
-import Amplify from "@aws-amplify/core"
+// import Amplify from "@aws-amplify/core"
 
 import React, {
   useState,
