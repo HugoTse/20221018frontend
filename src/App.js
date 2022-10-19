@@ -35,7 +35,7 @@ import React, {
   useState,
   useEffect,
 } from "react";
-import { isCompositeComponent } from "react-dom/test-utils";
+// import { isCompositeComponent } from "react-dom/test-utils";
 // import { Auth, Hub } from "aws-amplify";
 // import Amplify from "aws-amplify";
 
